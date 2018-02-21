@@ -1,0 +1,939 @@
+@ Welcome to Final FiCT. An automated fantasy battle simulation.
+@ Please join us to welcome both Arena.Team A and Arena.Team B.
+                                Team A                                      		                                 Team B                             
+                              BACK ROW                             FRONT ROW  |  FRONT ROW                             	BACK ROW                              
+   [Healer HP:4790.0/4790.0 ATK:238.0]  [Samurai HP:4905.0/4905.0 ATK:368.0]  |  [Tank HP:6240.0/6240.0 ATK:315.0]     [BlackMage HP:4175.0/4175.0 ATK:339.0]
+   [Healer HP:4790.0/4790.0 ATK:238.0]     [Tank HP:6240.0/6240.0 ATK:315.0]  |  [Samurai HP:4905.0/4905.0 ATK:368.0]  [Healer HP:4790.0/4790.0 ATK:238.0]   
+[BlackMage HP:4175.0/4175.0 ATK:339.0]  [Samurai HP:4905.0/4905.0 ATK:368.0]  |  [Tank HP:6240.0/6240.0 ATK:315.0]     [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+[BlackMage HP:4175.0/4175.0 ATK:339.0]     [Tank HP:6240.0/6240.0 ATK:315.0]  |  [Samurai HP:4905.0/4905.0 ATK:368.0]  [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+  [Phoenix HP:5175.0/5175.0 ATK:209.0]  [Samurai HP:4905.0/4905.0 ATK:368.0]  |  [Tank HP:6240.0/6240.0 ATK:315.0]     [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+@ Total HP of Team A = 50300.0. @ Total HP of Team B = 53020.0
+
+@ Round 1
+# A[Front][1] {Samurai} Attacks B[Front][2] {Samurai}
+# A[Front][2] {Tank} Attacks B[Front][2] {Samurai}
+# A[Front][3] {Samurai} Attacks B[Front][2] {Samurai}
+# A[Front][4] {Tank} Attacks B[Front][2] {Samurai}
+# A[Front][5] {Samurai} Attacks B[Front][2] {Samurai}
+# A[Back][1] {Healer} Attacks B[Front][2] {Samurai}
+# A[Back][2] {Healer} Attacks B[Front][2] {Samurai}
+# A[Back][3] {BlackMage} Attacks B[Front][2] {Samurai}
+# A[Back][4] {BlackMage} Attacks B[Front][2] {Samurai}
+# A[Back][5] {Phoenix} Attacks B[Front][2] {Samurai}
+# B[Front][1] {Tank} Attacks A[Front][1] {Samurai}
+# B[Front][2] {Samurai} Attacks A[Front][1] {Samurai}
+# B[Front][3] {Tank} Attacks A[Front][1] {Samurai}
+# B[Front][4] {Samurai} Attacks A[Front][1] {Samurai}
+# B[Front][5] {Tank} Attacks A[Front][1] {Samurai}
+# B[Back][1] {BlackMage} Attacks A[Front][1] {Samurai}
+# B[Back][2] {Healer} Attacks A[Front][1] {Samurai}
+# B[Back][3] {Phoenix} Attacks A[Front][1] {Samurai}
+# B[Back][4] {Phoenix} Attacks A[Front][1] {Samurai}
+# B[Back][5] {Phoenix} Attacks A[Front][1] {Samurai}
+                                Team A                                      		                                 Team B                             
+                              BACK ROW                             FRONT ROW  |  FRONT ROW                             	BACK ROW                              
+   [Healer HP:4790.0/4790.0 ATK:238.0]  [Samurai HP:2020.0/4905.0 ATK:368.0]  |  [Tank HP:6240.0/6240.0 ATK:315.0]     [BlackMage HP:4175.0/4175.0 ATK:339.0]
+   [Healer HP:4790.0/4790.0 ATK:238.0]     [Tank HP:6240.0/6240.0 ATK:315.0]  |  [Samurai HP:1808.0/4905.0 ATK:368.0]  [Healer HP:4790.0/4790.0 ATK:238.0]   
+[BlackMage HP:4175.0/4175.0 ATK:339.0]  [Samurai HP:4905.0/4905.0 ATK:368.0]  |  [Tank HP:6240.0/6240.0 ATK:315.0]     [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+[BlackMage HP:4175.0/4175.0 ATK:339.0]     [Tank HP:6240.0/6240.0 ATK:315.0]  |  [Samurai HP:4905.0/4905.0 ATK:368.0]  [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+  [Phoenix HP:5175.0/5175.0 ATK:209.0]  [Samurai HP:4905.0/4905.0 ATK:368.0]  |  [Tank HP:6240.0/6240.0 ATK:315.0]     [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+@ Total HP of Team A = 47415.0. @ Total HP of Team B = 49923.0
+
+@ Round 2
+# A[Front][1] {Samurai} Attacks B[Front][2] {Samurai}
+# A[Front][2] {Tank} Attacks B[Front][2] {Samurai}
+# A[Front][3] {Samurai} Attacks B[Front][2] {Samurai}
+# A[Front][4] {Tank} Attacks B[Front][2] {Samurai}
+# A[Front][5] {Samurai} Attacks B[Front][2] {Samurai}
+# A[Back][1] {Healer} Attacks B[Front][2] {Samurai}
+# A[Back][2] {Healer} Attacks B[Front][4] {Samurai}
+# A[Back][3] {BlackMage} Attacks B[Front][4] {Samurai}
+# A[Back][4] {BlackMage} Attacks B[Front][4] {Samurai}
+# A[Back][5] {Phoenix} Attacks B[Front][4] {Samurai}
+# B[Front][1] {Tank} Attacks A[Front][1] {Samurai}
+# B[Front][3] {Tank} Attacks A[Front][1] {Samurai}
+# B[Front][4] {Samurai} Attacks A[Front][1] {Samurai}
+# B[Front][5] {Tank} Attacks A[Front][1] {Samurai}
+# B[Back][1] {BlackMage} Attacks A[Front][1] {Samurai}
+# B[Back][2] {Healer} Attacks A[Front][1] {Samurai}
+# B[Back][3] {Phoenix} Attacks A[Front][1] {Samurai}
+# B[Back][4] {Phoenix} Attacks A[Front][3] {Samurai}
+# B[Back][5] {Phoenix} Attacks A[Front][3] {Samurai}
+                                Team A                                      		                                 Team B                             
+                              BACK ROW                             FRONT ROW  |  FRONT ROW                             	BACK ROW                              
+   [Healer HP:4790.0/4790.0 ATK:238.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:6240.0/6240.0 ATK:315.0]     [BlackMage HP:4175.0/4175.0 ATK:339.0]
+   [Healer HP:4790.0/4790.0 ATK:238.0]     [Tank HP:6240.0/6240.0 ATK:315.0]  |  [Samurai HP:0.0/4905.0 ATK:368.0]     [Healer HP:4790.0/4790.0 ATK:238.0]   
+[BlackMage HP:4175.0/4175.0 ATK:339.0]  [Samurai HP:4487.0/4905.0 ATK:368.0]  |  [Tank HP:6240.0/6240.0 ATK:315.0]     [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+[BlackMage HP:4175.0/4175.0 ATK:339.0]     [Tank HP:6240.0/6240.0 ATK:315.0]  |  [Samurai HP:3780.0/4905.0 ATK:368.0]  [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+  [Phoenix HP:5175.0/5175.0 ATK:209.0]  [Samurai HP:4905.0/4905.0 ATK:368.0]  |  [Tank HP:6240.0/6240.0 ATK:315.0]     [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+@ Total HP of Team A = 44977.0. @ Total HP of Team B = 46990.0
+
+@ Round 3
+# A[Front][2] {Tank} Attacks B[Front][4] {Samurai}
+# A[Front][3] {Samurai} Double-Slashes B[Front][4] {Samurai}
+# A[Front][4] {Tank} Attacks B[Front][4] {Samurai}
+# A[Front][5] {Samurai} Double-Slashes B[Front][4] {Samurai}
+# A[Back][1] {Healer} Attacks B[Front][4] {Samurai}
+# A[Back][2] {Healer} Attacks B[Front][4] {Samurai}
+# A[Back][3] {BlackMage} Attacks B[Front][4] {Samurai}
+# A[Back][4] {BlackMage} Attacks B[Front][4] {Samurai}
+# A[Back][5] {Phoenix} Attacks B[Front][4] {Samurai}
+# B[Front][1] {Tank} Attacks A[Front][3] {Samurai}
+# B[Front][3] {Tank} Attacks A[Front][3] {Samurai}
+# B[Front][4] {Samurai} Double-Slashes A[Front][3] {Samurai}
+# B[Front][5] {Tank} Attacks A[Front][3] {Samurai}
+# B[Back][1] {BlackMage} Attacks A[Front][3] {Samurai}
+# B[Back][2] {Healer} Attacks A[Front][3] {Samurai}
+# B[Back][3] {Phoenix} Attacks A[Front][3] {Samurai}
+# B[Back][4] {Phoenix} Attacks A[Front][3] {Samurai}
+# B[Back][5] {Phoenix} Attacks A[Front][3] {Samurai}
+                                Team A                                      		                                 Team B                             
+                              BACK ROW                             FRONT ROW  |  FRONT ROW                             	BACK ROW                              
+   [Healer HP:4790.0/4790.0 ATK:238.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:6240.0/6240.0 ATK:315.0]     [BlackMage HP:4175.0/4175.0 ATK:339.0]
+   [Healer HP:4790.0/4790.0 ATK:238.0]     [Tank HP:6240.0/6240.0 ATK:315.0]  |  [Samurai HP:0.0/4905.0 ATK:368.0]     [Healer HP:4790.0/4790.0 ATK:238.0]   
+[BlackMage HP:4175.0/4175.0 ATK:339.0]  [Samurai HP:1602.0/4905.0 ATK:368.0]  |  [Tank HP:6240.0/6240.0 ATK:315.0]     [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+[BlackMage HP:4175.0/4175.0 ATK:339.0]     [Tank HP:6240.0/6240.0 ATK:315.0]  |  [Samurai HP:315.0/4905.0 ATK:368.0]   [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+  [Phoenix HP:5175.0/5175.0 ATK:209.0]  [Samurai HP:4905.0/4905.0 ATK:368.0]  |  [Tank HP:6240.0/6240.0 ATK:315.0]     [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+@ Total HP of Team A = 42092.0. @ Total HP of Team B = 43525.0
+
+@ Round 4
+# A[Front][2] {Tank} is Taunting
+# A[Front][3] {Samurai} Attacks B[Front][4] {Samurai}
+# A[Front][4] {Tank} is Taunting
+# A[Front][5] {Samurai} Attacks B[Front][1] {Tank}
+# A[Back][1] {Healer} Heals A[Front][3] {Samurai}
+# A[Back][2] {Healer} Heals A[Front][3] {Samurai}
+# A[Back][3] {BlackMage} Curses B[Front][1] {Tank}
+# A[Back][4] {BlackMage} Curses B[Front][1] {Tank}
+# A[Back][5] {Phoenix} Attacks B[Front][1] {Tank}
+# B[Front][1] {Tank} is Taunting
+# B[Front][3] {Tank} is Taunting
+# B[Front][5] {Tank} is Taunting
+# B[Back][1] {BlackMage} Curses A[Front][2] {Tank}
+# B[Back][3] {Phoenix} Attacks A[Front][2] {Tank}
+# B[Back][4] {Phoenix} Attacks A[Front][2] {Tank}
+# B[Back][5] {Phoenix} Attacks A[Front][2] {Tank}
+                                Team A                                      		                                 Team B                             
+                              BACK ROW                             FRONT ROW  |  FRONT ROW                             	BACK ROW                              
+   [Healer HP:4790.0/4790.0 ATK:238.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:5663.0/6240.0 ATK:315.0]     [BlackMage HP:4175.0/4175.0 ATK:339.0]
+   [Healer HP:4790.0/4790.0 ATK:238.0]     [Tank HP:5613.0/6240.0 ATK:315.0]  |  [Samurai HP:0.0/4905.0 ATK:368.0]     [Healer HP:4790.0/4790.0 ATK:238.0]   
+[BlackMage HP:4175.0/4175.0 ATK:339.0]  [Samurai HP:4545.0/4905.0 ATK:368.0]  |  [Tank HP:6240.0/6240.0 ATK:315.0]     [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+[BlackMage HP:4175.0/4175.0 ATK:339.0]     [Tank HP:6240.0/6240.0 ATK:315.0]  |  [Samurai HP:0.0/4905.0 ATK:368.0]     [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+  [Phoenix HP:5175.0/5175.0 ATK:209.0]  [Samurai HP:4905.0/4905.0 ATK:368.0]  |  [Tank HP:6240.0/6240.0 ATK:315.0]     [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+@ Total HP of Team A = 44408.0. @ Total HP of Team B = 42633.0
+
+@ Round 5
+# A[Front][2] {Tank} Attacks B[Front][1] {Tank}
+# A[Front][3] {Samurai} Attacks B[Front][1] {Tank}
+# A[Front][4] {Tank} Attacks B[Front][1] {Tank}
+# A[Front][5] {Samurai} Attacks B[Front][1] {Tank}
+# A[Back][1] {Healer} Attacks B[Front][1] {Tank}
+# A[Back][2] {Healer} Attacks B[Front][1] {Tank}
+# A[Back][3] {BlackMage} Attacks B[Front][1] {Tank}
+# A[Back][4] {BlackMage} Attacks B[Front][1] {Tank}
+# A[Back][5] {Phoenix} Attacks B[Front][1] {Tank}
+# B[Front][1] {Tank} Attacks A[Front][3] {Samurai}
+# B[Front][3] {Tank} Attacks A[Front][3] {Samurai}
+# B[Front][5] {Tank} Attacks A[Front][3] {Samurai}
+# B[Back][1] {BlackMage} Attacks A[Front][3] {Samurai}
+# B[Back][2] {Healer} Attacks A[Front][3] {Samurai}
+# B[Back][3] {Phoenix} Attacks A[Front][3] {Samurai}
+# B[Back][4] {Phoenix} Attacks A[Front][3] {Samurai}
+# B[Back][5] {Phoenix} Attacks A[Front][3] {Samurai}
+                                Team A                                      		                                 Team B                             
+                              BACK ROW                             FRONT ROW  |  FRONT ROW                             	BACK ROW                              
+   [Healer HP:4790.0/4790.0 ATK:238.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:2934.0/6240.0 ATK:315.0]     [BlackMage HP:4175.0/4175.0 ATK:339.0]
+   [Healer HP:4790.0/4790.0 ATK:238.0]     [Tank HP:5613.0/6240.0 ATK:315.0]  |  [Samurai HP:0.0/4905.0 ATK:368.0]     [Healer HP:4790.0/4790.0 ATK:238.0]   
+[BlackMage HP:4175.0/4175.0 ATK:339.0]  [Samurai HP:2396.0/4905.0 ATK:368.0]  |  [Tank HP:6240.0/6240.0 ATK:315.0]     [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+[BlackMage HP:4175.0/4175.0 ATK:339.0]     [Tank HP:6240.0/6240.0 ATK:315.0]  |  [Samurai HP:0.0/4905.0 ATK:368.0]     [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+  [Phoenix HP:5175.0/5175.0 ATK:209.0]  [Samurai HP:4905.0/4905.0 ATK:368.0]  |  [Tank HP:6240.0/6240.0 ATK:315.0]     [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+@ Total HP of Team A = 42259.0. @ Total HP of Team B = 39904.0
+
+@ Round 6
+# A[Front][2] {Tank} Attacks B[Front][1] {Tank}
+# A[Front][3] {Samurai} Double-Slashes B[Front][1] {Tank}
+# A[Front][4] {Tank} Attacks B[Front][1] {Tank}
+# A[Front][5] {Samurai} Double-Slashes B[Front][1] {Tank}
+# A[Back][1] {Healer} Attacks B[Front][1] {Tank}
+# A[Back][2] {Healer} Attacks B[Front][1] {Tank}
+# A[Back][3] {BlackMage} Attacks B[Front][1] {Tank}
+# A[Back][4] {BlackMage} Attacks B[Front][1] {Tank}
+# A[Back][5] {Phoenix} Attacks B[Front][3] {Tank}
+# B[Front][3] {Tank} Attacks A[Front][3] {Samurai}
+# B[Front][5] {Tank} Attacks A[Front][3] {Samurai}
+# B[Back][1] {BlackMage} Attacks A[Front][3] {Samurai}
+# B[Back][2] {Healer} Attacks A[Front][3] {Samurai}
+# B[Back][3] {Phoenix} Attacks A[Front][3] {Samurai}
+# B[Back][4] {Phoenix} Attacks A[Front][3] {Samurai}
+# B[Back][5] {Phoenix} Attacks A[Front][3] {Samurai}
+                                Team A                                      		                                 Team B                             
+                              BACK ROW                             FRONT ROW  |  FRONT ROW                             	BACK ROW                              
+   [Healer HP:4790.0/4790.0 ATK:238.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:0.0/6240.0 ATK:315.0]        [BlackMage HP:4175.0/4175.0 ATK:339.0]
+   [Healer HP:4790.0/4790.0 ATK:238.0]     [Tank HP:5613.0/6240.0 ATK:315.0]  |  [Samurai HP:0.0/4905.0 ATK:368.0]     [Healer HP:4790.0/4790.0 ATK:238.0]   
+[BlackMage HP:4175.0/4175.0 ATK:339.0]   [Samurai HP:562.0/4905.0 ATK:368.0]  |  [Tank HP:6031.0/6240.0 ATK:315.0]     [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+[BlackMage HP:4175.0/4175.0 ATK:339.0]     [Tank HP:6240.0/6240.0 ATK:315.0]  |  [Samurai HP:0.0/4905.0 ATK:368.0]     [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+  [Phoenix HP:5175.0/5175.0 ATK:209.0]  [Samurai HP:4905.0/4905.0 ATK:368.0]  |  [Tank HP:6240.0/6240.0 ATK:315.0]     [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+@ Total HP of Team A = 40425.0. @ Total HP of Team B = 36761.0
+
+@ Round 7
+# A[Front][2] {Tank} Attacks B[Front][3] {Tank}
+# A[Front][3] {Samurai} Attacks B[Front][3] {Tank}
+# A[Front][4] {Tank} Attacks B[Front][3] {Tank}
+# A[Front][5] {Samurai} Attacks B[Front][3] {Tank}
+# A[Back][1] {Healer} Attacks B[Front][3] {Tank}
+# A[Back][2] {Healer} Attacks B[Front][3] {Tank}
+# A[Back][3] {BlackMage} Attacks B[Front][3] {Tank}
+# A[Back][4] {BlackMage} Attacks B[Front][3] {Tank}
+# A[Back][5] {Phoenix} Attacks B[Front][3] {Tank}
+# B[Front][3] {Tank} Attacks A[Front][3] {Samurai}
+# B[Front][5] {Tank} Attacks A[Front][3] {Samurai}
+# B[Back][1] {BlackMage} Attacks A[Front][5] {Samurai}
+# B[Back][2] {Healer} Attacks A[Front][5] {Samurai}
+# B[Back][3] {Phoenix} Attacks A[Front][5] {Samurai}
+# B[Back][4] {Phoenix} Attacks A[Front][5] {Samurai}
+# B[Back][5] {Phoenix} Attacks A[Front][5] {Samurai}
+                                Team A                                      		                                 Team B                             
+                              BACK ROW                             FRONT ROW  |  FRONT ROW                             	BACK ROW                              
+   [Healer HP:4790.0/4790.0 ATK:238.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:0.0/6240.0 ATK:315.0]        [BlackMage HP:4175.0/4175.0 ATK:339.0]
+   [Healer HP:4790.0/4790.0 ATK:238.0]     [Tank HP:5613.0/6240.0 ATK:315.0]  |  [Samurai HP:0.0/4905.0 ATK:368.0]     [Healer HP:4790.0/4790.0 ATK:238.0]   
+[BlackMage HP:4175.0/4175.0 ATK:339.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:3302.0/6240.0 ATK:315.0]     [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+[BlackMage HP:4175.0/4175.0 ATK:339.0]     [Tank HP:6240.0/6240.0 ATK:315.0]  |  [Samurai HP:0.0/4905.0 ATK:368.0]     [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+  [Phoenix HP:5175.0/5175.0 ATK:209.0]  [Samurai HP:3701.0/4905.0 ATK:368.0]  |  [Tank HP:6240.0/6240.0 ATK:315.0]     [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+@ Total HP of Team A = 38659.0. @ Total HP of Team B = 34032.0
+
+@ Round 8
+# A[Front][2] {Tank} is Taunting
+# A[Front][4] {Tank} is Taunting
+# A[Front][5] {Samurai} Attacks B[Front][3] {Tank}
+# A[Back][1] {Healer} Heals A[Front][5] {Samurai}
+# A[Back][2] {Healer} Heals A[Front][2] {Tank}
+# A[Back][3] {BlackMage} Curses B[Front][3] {Tank}
+# A[Back][4] {BlackMage} Curses B[Front][3] {Tank}
+# A[Back][5] {Phoenix} Revives A[Front][1] {Samurai}
+# B[Front][3] {Tank} is Taunting
+# B[Front][5] {Tank} is Taunting
+# B[Back][1] {BlackMage} Curses A[Front][2] {Tank}
+# B[Back][3] {Phoenix} Revives B[Front][1] {Tank}
+# B[Back][4] {Phoenix} Revives B[Front][2] {Samurai}
+# B[Back][5] {Phoenix} Revives B[Front][4] {Samurai}
+                                Team A                                      		                                 Team B                             
+                              BACK ROW                             FRONT ROW  |  FRONT ROW                             	BACK ROW                              
+   [Healer HP:4790.0/4790.0 ATK:238.0]  [Samurai HP:1471.5/4905.0 ATK:368.0]  |  [Tank HP:1872.0/6240.0 ATK:315.0]     [BlackMage HP:4175.0/4175.0 ATK:339.0]
+   [Healer HP:4790.0/4790.0 ATK:238.0]     [Tank HP:6240.0/6240.0 ATK:315.0]  |  [Samurai HP:1471.5/4905.0 ATK:368.0]  [Healer HP:4790.0/4790.0 ATK:238.0]   
+[BlackMage HP:4175.0/4175.0 ATK:339.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:2934.0/6240.0 ATK:315.0]     [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+[BlackMage HP:4175.0/4175.0 ATK:339.0]     [Tank HP:6240.0/6240.0 ATK:315.0]  |  [Samurai HP:1471.5/4905.0 ATK:368.0]  [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+  [Phoenix HP:5175.0/5175.0 ATK:209.0]  [Samurai HP:4905.0/4905.0 ATK:368.0]  |  [Tank HP:6240.0/6240.0 ATK:315.0]     [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+@ Total HP of Team A = 41961.5. @ Total HP of Team B = 38479.0
+
+@ Round 9
+# A[Front][1] {Samurai} Attacks B[Front][3] {Tank}
+# A[Front][2] {Tank} Attacks B[Front][3] {Tank}
+# A[Front][4] {Tank} Attacks B[Front][3] {Tank}
+# A[Front][5] {Samurai} Double-Slashes B[Front][3] {Tank}
+# A[Back][1] {Healer} Attacks B[Front][3] {Tank}
+# A[Back][2] {Healer} Attacks B[Front][3] {Tank}
+# A[Back][3] {BlackMage} Attacks B[Front][3] {Tank}
+# A[Back][4] {BlackMage} Attacks B[Front][3] {Tank}
+# A[Back][5] {Phoenix} Attacks B[Front][3] {Tank}
+# B[Front][1] {Tank} Attacks A[Front][1] {Samurai}
+# B[Front][2] {Samurai} Attacks A[Front][1] {Samurai}
+# B[Front][4] {Samurai} Attacks A[Front][1] {Samurai}
+# B[Front][5] {Tank} Attacks A[Front][1] {Samurai}
+# B[Back][1] {BlackMage} Attacks A[Front][1] {Samurai}
+# B[Back][2] {Healer} Attacks A[Front][5] {Samurai}
+# B[Back][3] {Phoenix} Attacks A[Front][5] {Samurai}
+# B[Back][4] {Phoenix} Attacks A[Front][5] {Samurai}
+# B[Back][5] {Phoenix} Attacks A[Front][5] {Samurai}
+                                Team A                                      		                                 Team B                             
+                              BACK ROW                             FRONT ROW  |  FRONT ROW                             	BACK ROW                              
+   [Healer HP:4790.0/4790.0 ATK:238.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:1872.0/6240.0 ATK:315.0]     [BlackMage HP:4175.0/4175.0 ATK:339.0]
+   [Healer HP:4790.0/4790.0 ATK:238.0]     [Tank HP:6240.0/6240.0 ATK:315.0]  |  [Samurai HP:1471.5/4905.0 ATK:368.0]  [Healer HP:4790.0/4790.0 ATK:238.0]   
+[BlackMage HP:4175.0/4175.0 ATK:339.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:0.0/6240.0 ATK:315.0]        [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+[BlackMage HP:4175.0/4175.0 ATK:339.0]     [Tank HP:6240.0/6240.0 ATK:315.0]  |  [Samurai HP:1471.5/4905.0 ATK:368.0]  [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+  [Phoenix HP:5175.0/5175.0 ATK:209.0]  [Samurai HP:4040.0/4905.0 ATK:368.0]  |  [Tank HP:6240.0/6240.0 ATK:315.0]     [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+@ Total HP of Team A = 39625.0. @ Total HP of Team B = 35545.0
+
+@ Round 10
+# A[Front][2] {Tank} Attacks B[Front][2] {Samurai}
+# A[Front][4] {Tank} Attacks B[Front][2] {Samurai}
+# A[Front][5] {Samurai} Attacks B[Front][2] {Samurai}
+# A[Back][1] {Healer} Attacks B[Front][2] {Samurai}
+# A[Back][2] {Healer} Attacks B[Front][2] {Samurai}
+# A[Back][3] {BlackMage} Attacks B[Front][4] {Samurai}
+# A[Back][4] {BlackMage} Attacks B[Front][4] {Samurai}
+# A[Back][5] {Phoenix} Attacks B[Front][4] {Samurai}
+# B[Front][1] {Tank} Attacks A[Front][5] {Samurai}
+# B[Front][4] {Samurai} Attacks A[Front][5] {Samurai}
+# B[Front][5] {Tank} Attacks A[Front][5] {Samurai}
+# B[Back][1] {BlackMage} Attacks A[Front][5] {Samurai}
+# B[Back][2] {Healer} Attacks A[Front][5] {Samurai}
+# B[Back][3] {Phoenix} Attacks A[Front][5] {Samurai}
+# B[Back][4] {Phoenix} Attacks A[Front][5] {Samurai}
+# B[Back][5] {Phoenix} Attacks A[Front][5] {Samurai}
+                                Team A                                      		                                 Team B                             
+                              BACK ROW                             FRONT ROW  |  FRONT ROW                             	BACK ROW                              
+   [Healer HP:4790.0/4790.0 ATK:238.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:1872.0/6240.0 ATK:315.0]     [BlackMage HP:4175.0/4175.0 ATK:339.0]
+   [Healer HP:4790.0/4790.0 ATK:238.0]     [Tank HP:6240.0/6240.0 ATK:315.0]  |  [Samurai HP:0.0/4905.0 ATK:368.0]     [Healer HP:4790.0/4790.0 ATK:238.0]   
+[BlackMage HP:4175.0/4175.0 ATK:339.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:0.0/6240.0 ATK:315.0]        [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+[BlackMage HP:4175.0/4175.0 ATK:339.0]     [Tank HP:6240.0/6240.0 ATK:315.0]  |  [Samurai HP:584.5/4905.0 ATK:368.0]   [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+  [Phoenix HP:5175.0/5175.0 ATK:209.0]  [Samurai HP:1838.0/4905.0 ATK:368.0]  |  [Tank HP:6240.0/6240.0 ATK:315.0]     [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+@ Total HP of Team A = 37423.0. @ Total HP of Team B = 33186.5
+
+@ Round 11
+# A[Front][2] {Tank} Attacks B[Front][4] {Samurai}
+# A[Front][4] {Tank} Attacks B[Front][4] {Samurai}
+# A[Front][5] {Samurai} Attacks B[Front][1] {Tank}
+# A[Back][1] {Healer} Attacks B[Front][1] {Tank}
+# A[Back][2] {Healer} Attacks B[Front][1] {Tank}
+# A[Back][3] {BlackMage} Attacks B[Front][1] {Tank}
+# A[Back][4] {BlackMage} Attacks B[Front][1] {Tank}
+# A[Back][5] {Phoenix} Attacks B[Front][1] {Tank}
+# B[Front][1] {Tank} Attacks A[Front][5] {Samurai}
+# B[Front][5] {Tank} Attacks A[Front][5] {Samurai}
+# B[Back][1] {BlackMage} Attacks A[Front][5] {Samurai}
+# B[Back][2] {Healer} Attacks A[Front][5] {Samurai}
+# B[Back][3] {Phoenix} Attacks A[Front][5] {Samurai}
+# B[Back][4] {Phoenix} Attacks A[Front][5] {Samurai}
+# B[Back][5] {Phoenix} Attacks A[Front][5] {Samurai}
+                                Team A                                      		                                 Team B                             
+                              BACK ROW                             FRONT ROW  |  FRONT ROW                             	BACK ROW                              
+   [Healer HP:4790.0/4790.0 ATK:238.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:141.0/6240.0 ATK:315.0]      [BlackMage HP:4175.0/4175.0 ATK:339.0]
+   [Healer HP:4790.0/4790.0 ATK:238.0]     [Tank HP:6240.0/6240.0 ATK:315.0]  |  [Samurai HP:0.0/4905.0 ATK:368.0]     [Healer HP:4790.0/4790.0 ATK:238.0]   
+[BlackMage HP:4175.0/4175.0 ATK:339.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:0.0/6240.0 ATK:315.0]        [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+[BlackMage HP:4175.0/4175.0 ATK:339.0]     [Tank HP:6240.0/6240.0 ATK:315.0]  |  [Samurai HP:0.0/4905.0 ATK:368.0]     [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+  [Phoenix HP:5175.0/5175.0 ATK:209.0]     [Samurai HP:4.0/4905.0 ATK:368.0]  |  [Tank HP:6240.0/6240.0 ATK:315.0]     [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+@ Total HP of Team A = 35589.0. @ Total HP of Team B = 30871.0
+
+@ Round 12
+# A[Front][2] {Tank} is Taunting
+# A[Front][4] {Tank} is Taunting
+# A[Front][5] {Samurai} Double-Slashes B[Front][1] {Tank}
+# A[Back][1] {Healer} Heals A[Front][5] {Samurai}
+# A[Back][2] {Healer} Heals A[Front][5] {Samurai}
+# A[Back][3] {BlackMage} Curses B[Front][5] {Tank}
+# A[Back][4] {BlackMage} Curses B[Front][5] {Tank}
+# A[Back][5] {Phoenix} Attacks B[Front][5] {Tank}
+# B[Front][5] {Tank} is Taunting
+# B[Back][1] {BlackMage} Curses A[Front][2] {Tank}
+# B[Back][3] {Phoenix} Attacks A[Front][2] {Tank}
+# B[Back][4] {Phoenix} Attacks A[Front][2] {Tank}
+# B[Back][5] {Phoenix} Attacks A[Front][2] {Tank}
+                                Team A                                      		                                 Team B                             
+                              BACK ROW                             FRONT ROW  |  FRONT ROW                             	BACK ROW                              
+   [Healer HP:4790.0/4790.0 ATK:238.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:0.0/6240.0 ATK:315.0]        [BlackMage HP:4175.0/4175.0 ATK:339.0]
+   [Healer HP:4790.0/4790.0 ATK:238.0]     [Tank HP:5613.0/6240.0 ATK:315.0]  |  [Samurai HP:0.0/4905.0 ATK:368.0]     [Healer HP:4790.0/4790.0 ATK:238.0]   
+[BlackMage HP:4175.0/4175.0 ATK:339.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:0.0/6240.0 ATK:315.0]        [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+[BlackMage HP:4175.0/4175.0 ATK:339.0]     [Tank HP:6240.0/6240.0 ATK:315.0]  |  [Samurai HP:0.0/4905.0 ATK:368.0]     [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+  [Phoenix HP:5175.0/5175.0 ATK:209.0]  [Samurai HP:2947.0/4905.0 ATK:368.0]  |  [Tank HP:6031.0/6240.0 ATK:315.0]     [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+@ Total HP of Team A = 37905.0. @ Total HP of Team B = 30521.0
+
+@ Round 13
+# A[Front][2] {Tank} Attacks B[Front][5] {Tank}
+# A[Front][4] {Tank} Attacks B[Front][5] {Tank}
+# A[Front][5] {Samurai} Attacks B[Front][5] {Tank}
+# A[Back][1] {Healer} Attacks B[Front][5] {Tank}
+# A[Back][2] {Healer} Attacks B[Front][5] {Tank}
+# A[Back][3] {BlackMage} Attacks B[Front][5] {Tank}
+# A[Back][4] {BlackMage} Attacks B[Front][5] {Tank}
+# A[Back][5] {Phoenix} Attacks B[Front][5] {Tank}
+# B[Front][5] {Tank} Attacks A[Front][5] {Samurai}
+# B[Back][1] {BlackMage} Attacks A[Front][5] {Samurai}
+# B[Back][2] {Healer} Attacks A[Front][5] {Samurai}
+# B[Back][3] {Phoenix} Attacks A[Front][5] {Samurai}
+# B[Back][4] {Phoenix} Attacks A[Front][5] {Samurai}
+# B[Back][5] {Phoenix} Attacks A[Front][5] {Samurai}
+                                Team A                                      		                                 Team B                             
+                              BACK ROW                             FRONT ROW  |  FRONT ROW                             	BACK ROW                              
+   [Healer HP:4790.0/4790.0 ATK:238.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:0.0/6240.0 ATK:315.0]        [BlackMage HP:4175.0/4175.0 ATK:339.0]
+   [Healer HP:4790.0/4790.0 ATK:238.0]     [Tank HP:5613.0/6240.0 ATK:315.0]  |  [Samurai HP:0.0/4905.0 ATK:368.0]     [Healer HP:4790.0/4790.0 ATK:238.0]   
+[BlackMage HP:4175.0/4175.0 ATK:339.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:0.0/6240.0 ATK:315.0]        [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+[BlackMage HP:4175.0/4175.0 ATK:339.0]     [Tank HP:6240.0/6240.0 ATK:315.0]  |  [Samurai HP:0.0/4905.0 ATK:368.0]     [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+  [Phoenix HP:5175.0/5175.0 ATK:209.0]  [Samurai HP:1428.0/4905.0 ATK:368.0]  |  [Tank HP:3670.0/6240.0 ATK:315.0]     [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+@ Total HP of Team A = 36386.0. @ Total HP of Team B = 28160.0
+
+@ Round 14
+# A[Front][2] {Tank} Attacks B[Front][5] {Tank}
+# A[Front][4] {Tank} Attacks B[Front][5] {Tank}
+# A[Front][5] {Samurai} Attacks B[Front][5] {Tank}
+# A[Back][1] {Healer} Attacks B[Front][5] {Tank}
+# A[Back][2] {Healer} Attacks B[Front][5] {Tank}
+# A[Back][3] {BlackMage} Attacks B[Front][5] {Tank}
+# A[Back][4] {BlackMage} Attacks B[Front][5] {Tank}
+# A[Back][5] {Phoenix} Attacks B[Front][5] {Tank}
+# B[Front][5] {Tank} Attacks A[Front][5] {Samurai}
+# B[Back][1] {BlackMage} Attacks A[Front][5] {Samurai}
+# B[Back][2] {Healer} Attacks A[Front][5] {Samurai}
+# B[Back][3] {Phoenix} Attacks A[Front][5] {Samurai}
+# B[Back][4] {Phoenix} Attacks A[Front][5] {Samurai}
+# B[Back][5] {Phoenix} Attacks A[Front][5] {Samurai}
+                                Team A                                      		                                 Team B                             
+                              BACK ROW                             FRONT ROW  |  FRONT ROW                             	BACK ROW                              
+   [Healer HP:4790.0/4790.0 ATK:238.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:0.0/6240.0 ATK:315.0]        [BlackMage HP:4175.0/4175.0 ATK:339.0]
+   [Healer HP:4790.0/4790.0 ATK:238.0]     [Tank HP:5613.0/6240.0 ATK:315.0]  |  [Samurai HP:0.0/4905.0 ATK:368.0]     [Healer HP:4790.0/4790.0 ATK:238.0]   
+[BlackMage HP:4175.0/4175.0 ATK:339.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:0.0/6240.0 ATK:315.0]        [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+[BlackMage HP:4175.0/4175.0 ATK:339.0]     [Tank HP:6240.0/6240.0 ATK:315.0]  |  [Samurai HP:0.0/4905.0 ATK:368.0]     [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+  [Phoenix HP:5175.0/5175.0 ATK:209.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:1309.0/6240.0 ATK:315.0]     [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+@ Total HP of Team A = 34958.0. @ Total HP of Team B = 25799.0
+
+@ Round 15
+# A[Front][2] {Tank} Attacks B[Front][5] {Tank}
+# A[Front][4] {Tank} Attacks B[Front][5] {Tank}
+# A[Back][1] {Healer} Attacks B[Front][5] {Tank}
+# A[Back][2] {Healer} Attacks B[Front][5] {Tank}
+# A[Back][3] {BlackMage} Attacks B[Front][5] {Tank}
+# A[Back][4] {BlackMage} Attacks B[Back][1] {BlackMage}
+# A[Back][5] {Phoenix} Attacks B[Back][1] {BlackMage}
+# B[Back][1] {BlackMage} Attacks A[Front][2] {Tank}
+# B[Back][2] {Healer} Attacks A[Front][2] {Tank}
+# B[Back][3] {Phoenix} Attacks A[Front][2] {Tank}
+# B[Back][4] {Phoenix} Attacks A[Front][2] {Tank}
+# B[Back][5] {Phoenix} Attacks A[Front][2] {Tank}
+                                Team A                                      		                                 Team B                             
+                              BACK ROW                             FRONT ROW  |  FRONT ROW                             	BACK ROW                              
+   [Healer HP:4790.0/4790.0 ATK:238.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:0.0/6240.0 ATK:315.0]        [BlackMage HP:3627.0/4175.0 ATK:339.0]
+   [Healer HP:4790.0/4790.0 ATK:238.0]     [Tank HP:4409.0/6240.0 ATK:315.0]  |  [Samurai HP:0.0/4905.0 ATK:368.0]     [Healer HP:4790.0/4790.0 ATK:238.0]   
+[BlackMage HP:4175.0/4175.0 ATK:339.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:0.0/6240.0 ATK:315.0]        [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+[BlackMage HP:4175.0/4175.0 ATK:339.0]     [Tank HP:6240.0/6240.0 ATK:315.0]  |  [Samurai HP:0.0/4905.0 ATK:368.0]     [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+  [Phoenix HP:5175.0/5175.0 ATK:209.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:0.0/6240.0 ATK:315.0]        [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+@ Total HP of Team A = 33754.0. @ Total HP of Team B = 23942.0
+
+@ Round 16
+# A[Front][2] {Tank} is Taunting
+# A[Front][4] {Tank} is Taunting
+# A[Back][1] {Healer} Heals A[Front][2] {Tank}
+# A[Back][3] {BlackMage} Curses B[Back][1] {BlackMage}
+# A[Back][4] {BlackMage} Curses B[Back][1] {BlackMage}
+# A[Back][5] {Phoenix} Revives A[Front][1] {Samurai}
+# B[Back][1] {BlackMage} Curses A[Front][2] {Tank}
+# B[Back][3] {Phoenix} Revives B[Front][1] {Tank}
+# B[Back][4] {Phoenix} Revives B[Front][2] {Samurai}
+# B[Back][5] {Phoenix} Revives B[Front][3] {Tank}
+                                Team A                                      		                                 Team B                             
+                              BACK ROW                             FRONT ROW  |  FRONT ROW                             	BACK ROW                              
+   [Healer HP:4790.0/4790.0 ATK:238.0]  [Samurai HP:1471.5/4905.0 ATK:368.0]  |  [Tank HP:1872.0/6240.0 ATK:315.0]     [BlackMage HP:3627.0/4175.0 ATK:339.0]
+   [Healer HP:4790.0/4790.0 ATK:238.0]     [Tank HP:6240.0/6240.0 ATK:315.0]  |  [Samurai HP:1471.5/4905.0 ATK:368.0]  [Healer HP:4790.0/4790.0 ATK:238.0]   
+[BlackMage HP:4175.0/4175.0 ATK:339.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:1872.0/6240.0 ATK:315.0]     [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+[BlackMage HP:4175.0/4175.0 ATK:339.0]     [Tank HP:6240.0/6240.0 ATK:315.0]  |  [Samurai HP:0.0/4905.0 ATK:368.0]     [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+  [Phoenix HP:5175.0/5175.0 ATK:209.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:0.0/6240.0 ATK:315.0]        [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+@ Total HP of Team A = 37056.5. @ Total HP of Team B = 29157.5
+
+@ Round 17
+# A[Front][1] {Samurai} Attacks B[Front][2] {Samurai}
+# A[Front][2] {Tank} Attacks B[Front][2] {Samurai}
+# A[Front][4] {Tank} Attacks B[Front][2] {Samurai}
+# A[Back][1] {Healer} Attacks B[Front][2] {Samurai}
+# A[Back][2] {Healer} Attacks B[Front][2] {Samurai}
+# A[Back][3] {BlackMage} Attacks B[Front][1] {Tank}
+# A[Back][4] {BlackMage} Attacks B[Front][1] {Tank}
+# A[Back][5] {Phoenix} Attacks B[Front][1] {Tank}
+# B[Front][1] {Tank} Attacks A[Front][1] {Samurai}
+# B[Front][3] {Tank} Attacks A[Front][1] {Samurai}
+# B[Back][1] {BlackMage} Attacks A[Front][1] {Samurai}
+# B[Back][2] {Healer} Attacks A[Front][1] {Samurai}
+# B[Back][3] {Phoenix} Attacks A[Front][1] {Samurai}
+# B[Back][4] {Phoenix} Attacks A[Front][1] {Samurai}
+# B[Back][5] {Phoenix} Attacks A[Front][2] {Tank}
+                                Team A                                      		                                 Team B                             
+                              BACK ROW                             FRONT ROW  |  FRONT ROW                             	BACK ROW                              
+   [Healer HP:4790.0/4790.0 ATK:238.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:985.0/6240.0 ATK:315.0]      [BlackMage HP:3627.0/4175.0 ATK:339.0]
+   [Healer HP:4790.0/4790.0 ATK:238.0]     [Tank HP:6031.0/6240.0 ATK:315.0]  |  [Samurai HP:0.0/4905.0 ATK:368.0]     [Healer HP:4790.0/4790.0 ATK:238.0]   
+[BlackMage HP:4175.0/4175.0 ATK:339.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:1872.0/6240.0 ATK:315.0]     [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+[BlackMage HP:4175.0/4175.0 ATK:339.0]     [Tank HP:6240.0/6240.0 ATK:315.0]  |  [Samurai HP:0.0/4905.0 ATK:368.0]     [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+  [Phoenix HP:5175.0/5175.0 ATK:209.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:0.0/6240.0 ATK:315.0]        [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+@ Total HP of Team A = 35376.0. @ Total HP of Team B = 26799.0
+
+@ Round 18
+# A[Front][2] {Tank} Attacks B[Front][1] {Tank}
+# A[Front][4] {Tank} Attacks B[Front][1] {Tank}
+# A[Back][1] {Healer} Attacks B[Front][1] {Tank}
+# A[Back][2] {Healer} Attacks B[Front][1] {Tank}
+# A[Back][3] {BlackMage} Attacks B[Front][3] {Tank}
+# A[Back][4] {BlackMage} Attacks B[Front][3] {Tank}
+# A[Back][5] {Phoenix} Attacks B[Front][3] {Tank}
+# B[Front][3] {Tank} Attacks A[Front][2] {Tank}
+# B[Back][1] {BlackMage} Attacks A[Front][2] {Tank}
+# B[Back][2] {Healer} Attacks A[Front][2] {Tank}
+# B[Back][3] {Phoenix} Attacks A[Front][2] {Tank}
+# B[Back][4] {Phoenix} Attacks A[Front][2] {Tank}
+# B[Back][5] {Phoenix} Attacks A[Front][2] {Tank}
+                                Team A                                      		                                 Team B                             
+                              BACK ROW                             FRONT ROW  |  FRONT ROW                             	BACK ROW                              
+   [Healer HP:4790.0/4790.0 ATK:238.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:0.0/6240.0 ATK:315.0]        [BlackMage HP:3627.0/4175.0 ATK:339.0]
+   [Healer HP:4790.0/4790.0 ATK:238.0]     [Tank HP:4512.0/6240.0 ATK:315.0]  |  [Samurai HP:0.0/4905.0 ATK:368.0]     [Healer HP:4790.0/4790.0 ATK:238.0]   
+[BlackMage HP:4175.0/4175.0 ATK:339.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:985.0/6240.0 ATK:315.0]      [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+[BlackMage HP:4175.0/4175.0 ATK:339.0]     [Tank HP:6240.0/6240.0 ATK:315.0]  |  [Samurai HP:0.0/4905.0 ATK:368.0]     [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+  [Phoenix HP:5175.0/5175.0 ATK:209.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:0.0/6240.0 ATK:315.0]        [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+@ Total HP of Team A = 33857.0. @ Total HP of Team B = 24927.0
+
+@ Round 19
+# A[Front][2] {Tank} Attacks B[Front][3] {Tank}
+# A[Front][4] {Tank} Attacks B[Front][3] {Tank}
+# A[Back][1] {Healer} Attacks B[Front][3] {Tank}
+# A[Back][2] {Healer} Attacks B[Front][3] {Tank}
+# A[Back][3] {BlackMage} Attacks B[Back][1] {BlackMage}
+# A[Back][4] {BlackMage} Attacks B[Back][1] {BlackMage}
+# A[Back][5] {Phoenix} Attacks B[Back][1] {BlackMage}
+# B[Back][1] {BlackMage} Attacks A[Front][2] {Tank}
+# B[Back][2] {Healer} Attacks A[Front][2] {Tank}
+# B[Back][3] {Phoenix} Attacks A[Front][2] {Tank}
+# B[Back][4] {Phoenix} Attacks A[Front][2] {Tank}
+# B[Back][5] {Phoenix} Attacks A[Front][2] {Tank}
+                                Team A                                      		                                 Team B                             
+                              BACK ROW                             FRONT ROW  |  FRONT ROW                             	BACK ROW                              
+   [Healer HP:4790.0/4790.0 ATK:238.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:0.0/6240.0 ATK:315.0]        [BlackMage HP:2740.0/4175.0 ATK:339.0]
+   [Healer HP:4790.0/4790.0 ATK:238.0]     [Tank HP:3308.0/6240.0 ATK:315.0]  |  [Samurai HP:0.0/4905.0 ATK:368.0]     [Healer HP:4790.0/4790.0 ATK:238.0]   
+[BlackMage HP:4175.0/4175.0 ATK:339.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:0.0/6240.0 ATK:315.0]        [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+[BlackMage HP:4175.0/4175.0 ATK:339.0]     [Tank HP:6240.0/6240.0 ATK:315.0]  |  [Samurai HP:0.0/4905.0 ATK:368.0]     [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+  [Phoenix HP:5175.0/5175.0 ATK:209.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:0.0/6240.0 ATK:315.0]        [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+@ Total HP of Team A = 32653.0. @ Total HP of Team B = 23055.0
+
+@ Round 20
+# A[Front][2] {Tank} is Taunting
+# A[Front][4] {Tank} is Taunting
+# A[Back][1] {Healer} Heals A[Front][2] {Tank}
+# A[Back][2] {Healer} Heals A[Front][2] {Tank}
+# A[Back][3] {BlackMage} Curses B[Back][1] {BlackMage}
+# A[Back][4] {BlackMage} Curses B[Back][1] {BlackMage}
+# A[Back][5] {Phoenix} Attacks B[Back][1] {BlackMage}
+# B[Back][1] {BlackMage} Curses A[Front][2] {Tank}
+# B[Back][3] {Phoenix} Attacks A[Front][2] {Tank}
+# B[Back][4] {Phoenix} Attacks A[Front][2] {Tank}
+# B[Back][5] {Phoenix} Attacks A[Front][2] {Tank}
+                                Team A                                      		                                 Team B                             
+                              BACK ROW                             FRONT ROW  |  FRONT ROW                             	BACK ROW                              
+   [Healer HP:4790.0/4790.0 ATK:238.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:0.0/6240.0 ATK:315.0]        [BlackMage HP:2531.0/4175.0 ATK:339.0]
+   [Healer HP:4790.0/4790.0 ATK:238.0]     [Tank HP:5613.0/6240.0 ATK:315.0]  |  [Samurai HP:0.0/4905.0 ATK:368.0]     [Healer HP:4790.0/4790.0 ATK:238.0]   
+[BlackMage HP:4175.0/4175.0 ATK:339.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:0.0/6240.0 ATK:315.0]        [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+[BlackMage HP:4175.0/4175.0 ATK:339.0]     [Tank HP:6240.0/6240.0 ATK:315.0]  |  [Samurai HP:0.0/4905.0 ATK:368.0]     [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+  [Phoenix HP:5175.0/5175.0 ATK:209.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:0.0/6240.0 ATK:315.0]        [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+@ Total HP of Team A = 34958.0. @ Total HP of Team B = 22846.0
+
+@ Round 21
+# A[Front][2] {Tank} Attacks B[Back][1] {BlackMage}
+# A[Front][4] {Tank} Attacks B[Back][1] {BlackMage}
+# A[Back][1] {Healer} Attacks B[Back][1] {BlackMage}
+# A[Back][2] {Healer} Attacks B[Back][1] {BlackMage}
+# A[Back][3] {BlackMage} Attacks B[Back][1] {BlackMage}
+# A[Back][4] {BlackMage} Attacks B[Back][1] {BlackMage}
+# A[Back][5] {Phoenix} Attacks B[Back][1] {BlackMage}
+# B[Back][1] {BlackMage} Attacks A[Front][2] {Tank}
+# B[Back][2] {Healer} Attacks A[Front][2] {Tank}
+# B[Back][3] {Phoenix} Attacks A[Front][2] {Tank}
+# B[Back][4] {Phoenix} Attacks A[Front][2] {Tank}
+# B[Back][5] {Phoenix} Attacks A[Front][2] {Tank}
+                                Team A                                      		                                 Team B                             
+                              BACK ROW                             FRONT ROW  |  FRONT ROW                             	BACK ROW                              
+   [Healer HP:4790.0/4790.0 ATK:238.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:0.0/6240.0 ATK:315.0]        [BlackMage HP:538.0/4175.0 ATK:339.0] 
+   [Healer HP:4790.0/4790.0 ATK:238.0]     [Tank HP:4409.0/6240.0 ATK:315.0]  |  [Samurai HP:0.0/4905.0 ATK:368.0]     [Healer HP:4790.0/4790.0 ATK:238.0]   
+[BlackMage HP:4175.0/4175.0 ATK:339.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:0.0/6240.0 ATK:315.0]        [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+[BlackMage HP:4175.0/4175.0 ATK:339.0]     [Tank HP:6240.0/6240.0 ATK:315.0]  |  [Samurai HP:0.0/4905.0 ATK:368.0]     [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+  [Phoenix HP:5175.0/5175.0 ATK:209.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:0.0/6240.0 ATK:315.0]        [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+@ Total HP of Team A = 33754.0. @ Total HP of Team B = 20853.0
+
+@ Round 22
+# A[Front][2] {Tank} Attacks B[Back][1] {BlackMage}
+# A[Front][4] {Tank} Attacks B[Back][1] {BlackMage}
+# A[Back][1] {Healer} Attacks B[Back][2] {Healer}
+# A[Back][2] {Healer} Attacks B[Back][2] {Healer}
+# A[Back][3] {BlackMage} Attacks B[Back][2] {Healer}
+# A[Back][4] {BlackMage} Attacks B[Back][2] {Healer}
+# A[Back][5] {Phoenix} Attacks B[Back][2] {Healer}
+# B[Back][2] {Healer} Attacks A[Front][2] {Tank}
+# B[Back][3] {Phoenix} Attacks A[Front][2] {Tank}
+# B[Back][4] {Phoenix} Attacks A[Front][2] {Tank}
+# B[Back][5] {Phoenix} Attacks A[Front][2] {Tank}
+                                Team A                                      		                                 Team B                             
+                              BACK ROW                             FRONT ROW  |  FRONT ROW                             	BACK ROW                              
+   [Healer HP:4790.0/4790.0 ATK:238.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:0.0/6240.0 ATK:315.0]        [BlackMage HP:0.0/4175.0 ATK:339.0]   
+   [Healer HP:4790.0/4790.0 ATK:238.0]     [Tank HP:3544.0/6240.0 ATK:315.0]  |  [Samurai HP:0.0/4905.0 ATK:368.0]     [Healer HP:3427.0/4790.0 ATK:238.0]   
+[BlackMage HP:4175.0/4175.0 ATK:339.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:0.0/6240.0 ATK:315.0]        [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+[BlackMage HP:4175.0/4175.0 ATK:339.0]     [Tank HP:6240.0/6240.0 ATK:315.0]  |  [Samurai HP:0.0/4905.0 ATK:368.0]     [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+  [Phoenix HP:5175.0/5175.0 ATK:209.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:0.0/6240.0 ATK:315.0]        [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+@ Total HP of Team A = 32889.0. @ Total HP of Team B = 18952.0
+
+@ Round 23
+# A[Front][2] {Tank} Attacks B[Back][2] {Healer}
+# A[Front][4] {Tank} Attacks B[Back][2] {Healer}
+# A[Back][1] {Healer} Attacks B[Back][2] {Healer}
+# A[Back][2] {Healer} Attacks B[Back][2] {Healer}
+# A[Back][3] {BlackMage} Attacks B[Back][2] {Healer}
+# A[Back][4] {BlackMage} Attacks B[Back][2] {Healer}
+# A[Back][5] {Phoenix} Attacks B[Back][2] {Healer}
+# B[Back][2] {Healer} Attacks A[Front][2] {Tank}
+# B[Back][3] {Phoenix} Attacks A[Front][2] {Tank}
+# B[Back][4] {Phoenix} Attacks A[Front][2] {Tank}
+# B[Back][5] {Phoenix} Attacks A[Front][2] {Tank}
+                                Team A                                      		                                 Team B                             
+                              BACK ROW                             FRONT ROW  |  FRONT ROW                             	BACK ROW                              
+   [Healer HP:4790.0/4790.0 ATK:238.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:0.0/6240.0 ATK:315.0]        [BlackMage HP:0.0/4175.0 ATK:339.0]   
+   [Healer HP:4790.0/4790.0 ATK:238.0]     [Tank HP:2679.0/6240.0 ATK:315.0]  |  [Samurai HP:0.0/4905.0 ATK:368.0]     [Healer HP:1434.0/4790.0 ATK:238.0]   
+[BlackMage HP:4175.0/4175.0 ATK:339.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:0.0/6240.0 ATK:315.0]        [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+[BlackMage HP:4175.0/4175.0 ATK:339.0]     [Tank HP:6240.0/6240.0 ATK:315.0]  |  [Samurai HP:0.0/4905.0 ATK:368.0]     [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+  [Phoenix HP:5175.0/5175.0 ATK:209.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:0.0/6240.0 ATK:315.0]        [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+@ Total HP of Team A = 32024.0. @ Total HP of Team B = 16959.0
+
+@ Round 24
+# A[Front][2] {Tank} is Taunting
+# A[Front][4] {Tank} is Taunting
+# A[Back][1] {Healer} Heals A[Front][2] {Tank}
+# A[Back][2] {Healer} Heals A[Front][2] {Tank}
+# A[Back][3] {BlackMage} Curses B[Back][2] {Healer}
+# A[Back][4] {BlackMage} Curses B[Back][2] {Healer}
+# A[Back][5] {Phoenix} Revives A[Front][1] {Samurai}
+# B[Back][3] {Phoenix} Revives B[Front][1] {Tank}
+# B[Back][4] {Phoenix} Revives B[Front][2] {Samurai}
+# B[Back][5] {Phoenix} Revives B[Front][3] {Tank}
+                                Team A                                      		                                 Team B                             
+                              BACK ROW                             FRONT ROW  |  FRONT ROW                             	BACK ROW                              
+   [Healer HP:4790.0/4790.0 ATK:238.0]  [Samurai HP:1471.5/4905.0 ATK:368.0]  |  [Tank HP:1872.0/6240.0 ATK:315.0]     [BlackMage HP:0.0/4175.0 ATK:339.0]   
+   [Healer HP:4790.0/4790.0 ATK:238.0]     [Tank HP:6240.0/6240.0 ATK:315.0]  |  [Samurai HP:1471.5/4905.0 ATK:368.0]  [Healer HP:1434.0/4790.0 ATK:238.0]   
+[BlackMage HP:4175.0/4175.0 ATK:339.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:1872.0/6240.0 ATK:315.0]     [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+[BlackMage HP:4175.0/4175.0 ATK:339.0]     [Tank HP:6240.0/6240.0 ATK:315.0]  |  [Samurai HP:0.0/4905.0 ATK:368.0]     [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+  [Phoenix HP:5175.0/5175.0 ATK:209.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:0.0/6240.0 ATK:315.0]        [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+@ Total HP of Team A = 37056.5. @ Total HP of Team B = 22174.5
+
+@ Round 25
+# A[Front][1] {Samurai} Attacks B[Front][2] {Samurai}
+# A[Front][2] {Tank} Attacks B[Front][2] {Samurai}
+# A[Front][4] {Tank} Attacks B[Front][2] {Samurai}
+# A[Back][1] {Healer} Attacks B[Front][2] {Samurai}
+# A[Back][2] {Healer} Attacks B[Front][2] {Samurai}
+# A[Back][3] {BlackMage} Attacks B[Front][1] {Tank}
+# A[Back][4] {BlackMage} Attacks B[Front][1] {Tank}
+# A[Back][5] {Phoenix} Attacks B[Front][1] {Tank}
+# B[Front][1] {Tank} Attacks A[Front][1] {Samurai}
+# B[Front][3] {Tank} Attacks A[Front][1] {Samurai}
+# B[Back][2] {Healer} Attacks A[Front][1] {Samurai}
+# B[Back][3] {Phoenix} Attacks A[Front][1] {Samurai}
+# B[Back][4] {Phoenix} Attacks A[Front][1] {Samurai}
+# B[Back][5] {Phoenix} Attacks A[Front][1] {Samurai}
+                                Team A                                      		                                 Team B                             
+                              BACK ROW                             FRONT ROW  |  FRONT ROW                             	BACK ROW                              
+   [Healer HP:4790.0/4790.0 ATK:238.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:985.0/6240.0 ATK:315.0]      [BlackMage HP:0.0/4175.0 ATK:339.0]   
+   [Healer HP:4790.0/4790.0 ATK:238.0]     [Tank HP:6240.0/6240.0 ATK:315.0]  |  [Samurai HP:0.0/4905.0 ATK:368.0]     [Healer HP:1434.0/4790.0 ATK:238.0]   
+[BlackMage HP:4175.0/4175.0 ATK:339.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:1872.0/6240.0 ATK:315.0]     [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+[BlackMage HP:4175.0/4175.0 ATK:339.0]     [Tank HP:6240.0/6240.0 ATK:315.0]  |  [Samurai HP:0.0/4905.0 ATK:368.0]     [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+  [Phoenix HP:5175.0/5175.0 ATK:209.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:0.0/6240.0 ATK:315.0]        [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+@ Total HP of Team A = 35585.0. @ Total HP of Team B = 19816.0
+
+@ Round 26
+# A[Front][2] {Tank} Attacks B[Front][1] {Tank}
+# A[Front][4] {Tank} Attacks B[Front][1] {Tank}
+# A[Back][1] {Healer} Attacks B[Front][1] {Tank}
+# A[Back][2] {Healer} Attacks B[Front][1] {Tank}
+# A[Back][3] {BlackMage} Attacks B[Front][3] {Tank}
+# A[Back][4] {BlackMage} Attacks B[Front][3] {Tank}
+# A[Back][5] {Phoenix} Attacks B[Front][3] {Tank}
+# B[Front][3] {Tank} Attacks A[Front][2] {Tank}
+# B[Back][2] {Healer} Attacks A[Front][2] {Tank}
+# B[Back][3] {Phoenix} Attacks A[Front][2] {Tank}
+# B[Back][4] {Phoenix} Attacks A[Front][2] {Tank}
+# B[Back][5] {Phoenix} Attacks A[Front][2] {Tank}
+                                Team A                                      		                                 Team B                             
+                              BACK ROW                             FRONT ROW  |  FRONT ROW                             	BACK ROW                              
+   [Healer HP:4790.0/4790.0 ATK:238.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:0.0/6240.0 ATK:315.0]        [BlackMage HP:0.0/4175.0 ATK:339.0]   
+   [Healer HP:4790.0/4790.0 ATK:238.0]     [Tank HP:5060.0/6240.0 ATK:315.0]  |  [Samurai HP:0.0/4905.0 ATK:368.0]     [Healer HP:1434.0/4790.0 ATK:238.0]   
+[BlackMage HP:4175.0/4175.0 ATK:339.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:985.0/6240.0 ATK:315.0]      [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+[BlackMage HP:4175.0/4175.0 ATK:339.0]     [Tank HP:6240.0/6240.0 ATK:315.0]  |  [Samurai HP:0.0/4905.0 ATK:368.0]     [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+  [Phoenix HP:5175.0/5175.0 ATK:209.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:0.0/6240.0 ATK:315.0]        [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+@ Total HP of Team A = 34405.0. @ Total HP of Team B = 17944.0
+
+@ Round 27
+# A[Front][2] {Tank} Attacks B[Front][3] {Tank}
+# A[Front][4] {Tank} Attacks B[Front][3] {Tank}
+# A[Back][1] {Healer} Attacks B[Front][3] {Tank}
+# A[Back][2] {Healer} Attacks B[Front][3] {Tank}
+# A[Back][3] {BlackMage} Attacks B[Back][2] {Healer}
+# A[Back][4] {BlackMage} Attacks B[Back][2] {Healer}
+# A[Back][5] {Phoenix} Attacks B[Back][2] {Healer}
+# B[Back][2] {Healer} Attacks A[Front][2] {Tank}
+# B[Back][3] {Phoenix} Attacks A[Front][2] {Tank}
+# B[Back][4] {Phoenix} Attacks A[Front][2] {Tank}
+# B[Back][5] {Phoenix} Attacks A[Front][2] {Tank}
+                                Team A                                      		                                 Team B                             
+                              BACK ROW                             FRONT ROW  |  FRONT ROW                             	BACK ROW                              
+   [Healer HP:4790.0/4790.0 ATK:238.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:0.0/6240.0 ATK:315.0]        [BlackMage HP:0.0/4175.0 ATK:339.0]   
+   [Healer HP:4790.0/4790.0 ATK:238.0]     [Tank HP:4195.0/6240.0 ATK:315.0]  |  [Samurai HP:0.0/4905.0 ATK:368.0]     [Healer HP:547.0/4790.0 ATK:238.0]    
+[BlackMage HP:4175.0/4175.0 ATK:339.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:0.0/6240.0 ATK:315.0]        [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+[BlackMage HP:4175.0/4175.0 ATK:339.0]     [Tank HP:6240.0/6240.0 ATK:315.0]  |  [Samurai HP:0.0/4905.0 ATK:368.0]     [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+  [Phoenix HP:5175.0/5175.0 ATK:209.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:0.0/6240.0 ATK:315.0]        [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+@ Total HP of Team A = 33540.0. @ Total HP of Team B = 16072.0
+
+@ Round 28
+# A[Front][2] {Tank} is Taunting
+# A[Front][4] {Tank} is Taunting
+# A[Back][1] {Healer} Heals A[Front][2] {Tank}
+# A[Back][2] {Healer} Heals A[Front][2] {Tank}
+# A[Back][3] {BlackMage} Curses B[Back][2] {Healer}
+# A[Back][4] {BlackMage} Curses B[Back][2] {Healer}
+# A[Back][5] {Phoenix} Attacks B[Back][2] {Healer}
+# B[Back][3] {Phoenix} Attacks A[Front][2] {Tank}
+# B[Back][4] {Phoenix} Attacks A[Front][2] {Tank}
+# B[Back][5] {Phoenix} Attacks A[Front][2] {Tank}
+                                Team A                                      		                                 Team B                             
+                              BACK ROW                             FRONT ROW  |  FRONT ROW                             	BACK ROW                              
+   [Healer HP:4790.0/4790.0 ATK:238.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:0.0/6240.0 ATK:315.0]        [BlackMage HP:0.0/4175.0 ATK:339.0]   
+   [Healer HP:4790.0/4790.0 ATK:238.0]     [Tank HP:5613.0/6240.0 ATK:315.0]  |  [Samurai HP:0.0/4905.0 ATK:368.0]     [Healer HP:338.0/4790.0 ATK:238.0]    
+[BlackMage HP:4175.0/4175.0 ATK:339.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:0.0/6240.0 ATK:315.0]        [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+[BlackMage HP:4175.0/4175.0 ATK:339.0]     [Tank HP:6240.0/6240.0 ATK:315.0]  |  [Samurai HP:0.0/4905.0 ATK:368.0]     [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+  [Phoenix HP:5175.0/5175.0 ATK:209.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:0.0/6240.0 ATK:315.0]        [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+@ Total HP of Team A = 34958.0. @ Total HP of Team B = 15863.0
+
+@ Round 29
+# A[Front][2] {Tank} Attacks B[Back][2] {Healer}
+# A[Front][4] {Tank} Attacks B[Back][2] {Healer}
+# A[Back][1] {Healer} Attacks B[Back][3] {Phoenix}
+# A[Back][2] {Healer} Attacks B[Back][3] {Phoenix}
+# A[Back][3] {BlackMage} Attacks B[Back][3] {Phoenix}
+# A[Back][4] {BlackMage} Attacks B[Back][3] {Phoenix}
+# A[Back][5] {Phoenix} Attacks B[Back][3] {Phoenix}
+# B[Back][3] {Phoenix} Attacks A[Front][2] {Tank}
+# B[Back][4] {Phoenix} Attacks A[Front][2] {Tank}
+# B[Back][5] {Phoenix} Attacks A[Front][2] {Tank}
+                                Team A                                      		                                 Team B                             
+                              BACK ROW                             FRONT ROW  |  FRONT ROW                             	BACK ROW                              
+   [Healer HP:4790.0/4790.0 ATK:238.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:0.0/6240.0 ATK:315.0]        [BlackMage HP:0.0/4175.0 ATK:339.0]   
+   [Healer HP:4790.0/4790.0 ATK:238.0]     [Tank HP:4986.0/6240.0 ATK:315.0]  |  [Samurai HP:0.0/4905.0 ATK:368.0]     [Healer HP:0.0/4790.0 ATK:238.0]      
+[BlackMage HP:4175.0/4175.0 ATK:339.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:0.0/6240.0 ATK:315.0]        [Phoenix HP:3812.0/5175.0 ATK:209.0]  
+[BlackMage HP:4175.0/4175.0 ATK:339.0]     [Tank HP:6240.0/6240.0 ATK:315.0]  |  [Samurai HP:0.0/4905.0 ATK:368.0]     [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+  [Phoenix HP:5175.0/5175.0 ATK:209.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:0.0/6240.0 ATK:315.0]        [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+@ Total HP of Team A = 34331.0. @ Total HP of Team B = 14162.0
+
+@ Round 30
+# A[Front][2] {Tank} Attacks B[Back][3] {Phoenix}
+# A[Front][4] {Tank} Attacks B[Back][3] {Phoenix}
+# A[Back][1] {Healer} Attacks B[Back][3] {Phoenix}
+# A[Back][2] {Healer} Attacks B[Back][3] {Phoenix}
+# A[Back][3] {BlackMage} Attacks B[Back][3] {Phoenix}
+# A[Back][4] {BlackMage} Attacks B[Back][3] {Phoenix}
+# A[Back][5] {Phoenix} Attacks B[Back][3] {Phoenix}
+# B[Back][3] {Phoenix} Attacks A[Front][2] {Tank}
+# B[Back][4] {Phoenix} Attacks A[Front][2] {Tank}
+# B[Back][5] {Phoenix} Attacks A[Front][2] {Tank}
+                                Team A                                      		                                 Team B                             
+                              BACK ROW                             FRONT ROW  |  FRONT ROW                             	BACK ROW                              
+   [Healer HP:4790.0/4790.0 ATK:238.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:0.0/6240.0 ATK:315.0]        [BlackMage HP:0.0/4175.0 ATK:339.0]   
+   [Healer HP:4790.0/4790.0 ATK:238.0]     [Tank HP:4359.0/6240.0 ATK:315.0]  |  [Samurai HP:0.0/4905.0 ATK:368.0]     [Healer HP:0.0/4790.0 ATK:238.0]      
+[BlackMage HP:4175.0/4175.0 ATK:339.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:0.0/6240.0 ATK:315.0]        [Phoenix HP:1819.0/5175.0 ATK:209.0]  
+[BlackMage HP:4175.0/4175.0 ATK:339.0]     [Tank HP:6240.0/6240.0 ATK:315.0]  |  [Samurai HP:0.0/4905.0 ATK:368.0]     [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+  [Phoenix HP:5175.0/5175.0 ATK:209.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:0.0/6240.0 ATK:315.0]        [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+@ Total HP of Team A = 33704.0. @ Total HP of Team B = 12169.0
+
+@ Round 31
+# A[Front][2] {Tank} Attacks B[Back][3] {Phoenix}
+# A[Front][4] {Tank} Attacks B[Back][3] {Phoenix}
+# A[Back][1] {Healer} Attacks B[Back][3] {Phoenix}
+# A[Back][2] {Healer} Attacks B[Back][3] {Phoenix}
+# A[Back][3] {BlackMage} Attacks B[Back][3] {Phoenix}
+# A[Back][4] {BlackMage} Attacks B[Back][3] {Phoenix}
+# A[Back][5] {Phoenix} Attacks B[Back][3] {Phoenix}
+# B[Back][4] {Phoenix} Attacks A[Front][2] {Tank}
+# B[Back][5] {Phoenix} Attacks A[Front][2] {Tank}
+                                Team A                                      		                                 Team B                             
+                              BACK ROW                             FRONT ROW  |  FRONT ROW                             	BACK ROW                              
+   [Healer HP:4790.0/4790.0 ATK:238.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:0.0/6240.0 ATK:315.0]        [BlackMage HP:0.0/4175.0 ATK:339.0]   
+   [Healer HP:4790.0/4790.0 ATK:238.0]     [Tank HP:3941.0/6240.0 ATK:315.0]  |  [Samurai HP:0.0/4905.0 ATK:368.0]     [Healer HP:0.0/4790.0 ATK:238.0]      
+[BlackMage HP:4175.0/4175.0 ATK:339.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:0.0/6240.0 ATK:315.0]        [Phoenix HP:0.0/5175.0 ATK:209.0]     
+[BlackMage HP:4175.0/4175.0 ATK:339.0]     [Tank HP:6240.0/6240.0 ATK:315.0]  |  [Samurai HP:0.0/4905.0 ATK:368.0]     [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+  [Phoenix HP:5175.0/5175.0 ATK:209.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:0.0/6240.0 ATK:315.0]        [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+@ Total HP of Team A = 33286.0. @ Total HP of Team B = 10350.0
+
+@ Round 32
+# A[Front][2] {Tank} is Taunting
+# A[Front][4] {Tank} is Taunting
+# A[Back][1] {Healer} Heals A[Front][2] {Tank}
+# A[Back][2] {Healer} Heals A[Front][2] {Tank}
+# A[Back][3] {BlackMage} Curses B[Back][4] {Phoenix}
+# A[Back][4] {BlackMage} Curses B[Back][4] {Phoenix}
+# A[Back][5] {Phoenix} Revives A[Front][1] {Samurai}
+# B[Back][4] {Phoenix} Revives B[Front][1] {Tank}
+# B[Back][5] {Phoenix} Revives B[Front][2] {Samurai}
+                                Team A                                      		                                 Team B                             
+                              BACK ROW                             FRONT ROW  |  FRONT ROW                             	BACK ROW                              
+   [Healer HP:4790.0/4790.0 ATK:238.0]  [Samurai HP:1471.5/4905.0 ATK:368.0]  |  [Tank HP:1872.0/6240.0 ATK:315.0]     [BlackMage HP:0.0/4175.0 ATK:339.0]   
+   [Healer HP:4790.0/4790.0 ATK:238.0]     [Tank HP:6240.0/6240.0 ATK:315.0]  |  [Samurai HP:1471.5/4905.0 ATK:368.0]  [Healer HP:0.0/4790.0 ATK:238.0]      
+[BlackMage HP:4175.0/4175.0 ATK:339.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:0.0/6240.0 ATK:315.0]        [Phoenix HP:0.0/5175.0 ATK:209.0]     
+[BlackMage HP:4175.0/4175.0 ATK:339.0]     [Tank HP:6240.0/6240.0 ATK:315.0]  |  [Samurai HP:0.0/4905.0 ATK:368.0]     [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+  [Phoenix HP:5175.0/5175.0 ATK:209.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:0.0/6240.0 ATK:315.0]        [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+@ Total HP of Team A = 37056.5. @ Total HP of Team B = 13693.5
+
+@ Round 33
+# A[Front][1] {Samurai} Attacks B[Front][2] {Samurai}
+# A[Front][2] {Tank} Attacks B[Front][2] {Samurai}
+# A[Front][4] {Tank} Attacks B[Front][2] {Samurai}
+# A[Back][1] {Healer} Attacks B[Front][2] {Samurai}
+# A[Back][2] {Healer} Attacks B[Front][2] {Samurai}
+# A[Back][3] {BlackMage} Attacks B[Front][1] {Tank}
+# A[Back][4] {BlackMage} Attacks B[Front][1] {Tank}
+# A[Back][5] {Phoenix} Attacks B[Front][1] {Tank}
+# B[Front][1] {Tank} Attacks A[Front][1] {Samurai}
+# B[Back][4] {Phoenix} Attacks A[Front][1] {Samurai}
+# B[Back][5] {Phoenix} Attacks A[Front][1] {Samurai}
+                                Team A                                      		                                 Team B                             
+                              BACK ROW                             FRONT ROW  |  FRONT ROW                             	BACK ROW                              
+   [Healer HP:4790.0/4790.0 ATK:238.0]   [Samurai HP:738.5/4905.0 ATK:368.0]  |  [Tank HP:985.0/6240.0 ATK:315.0]      [BlackMage HP:0.0/4175.0 ATK:339.0]   
+   [Healer HP:4790.0/4790.0 ATK:238.0]     [Tank HP:6240.0/6240.0 ATK:315.0]  |  [Samurai HP:0.0/4905.0 ATK:368.0]     [Healer HP:0.0/4790.0 ATK:238.0]      
+[BlackMage HP:4175.0/4175.0 ATK:339.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:0.0/6240.0 ATK:315.0]        [Phoenix HP:0.0/5175.0 ATK:209.0]     
+[BlackMage HP:4175.0/4175.0 ATK:339.0]     [Tank HP:6240.0/6240.0 ATK:315.0]  |  [Samurai HP:0.0/4905.0 ATK:368.0]     [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+  [Phoenix HP:5175.0/5175.0 ATK:209.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:0.0/6240.0 ATK:315.0]        [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+@ Total HP of Team A = 36323.5. @ Total HP of Team B = 11335.0
+
+@ Round 34
+# A[Front][1] {Samurai} Attacks B[Front][1] {Tank}
+# A[Front][2] {Tank} Attacks B[Front][1] {Tank}
+# A[Front][4] {Tank} Attacks B[Front][1] {Tank}
+# A[Back][1] {Healer} Attacks B[Back][4] {Phoenix}
+# A[Back][2] {Healer} Attacks B[Back][4] {Phoenix}
+# A[Back][3] {BlackMage} Attacks B[Back][4] {Phoenix}
+# A[Back][4] {BlackMage} Attacks B[Back][4] {Phoenix}
+# A[Back][5] {Phoenix} Attacks B[Back][4] {Phoenix}
+# B[Back][4] {Phoenix} Attacks A[Front][1] {Samurai}
+# B[Back][5] {Phoenix} Attacks A[Front][1] {Samurai}
+                                Team A                                      		                                 Team B                             
+                              BACK ROW                             FRONT ROW  |  FRONT ROW                             	BACK ROW                              
+   [Healer HP:4790.0/4790.0 ATK:238.0]   [Samurai HP:320.5/4905.0 ATK:368.0]  |  [Tank HP:0.0/6240.0 ATK:315.0]        [BlackMage HP:0.0/4175.0 ATK:339.0]   
+   [Healer HP:4790.0/4790.0 ATK:238.0]     [Tank HP:6240.0/6240.0 ATK:315.0]  |  [Samurai HP:0.0/4905.0 ATK:368.0]     [Healer HP:0.0/4790.0 ATK:238.0]      
+[BlackMage HP:4175.0/4175.0 ATK:339.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:0.0/6240.0 ATK:315.0]        [Phoenix HP:0.0/5175.0 ATK:209.0]     
+[BlackMage HP:4175.0/4175.0 ATK:339.0]     [Tank HP:6240.0/6240.0 ATK:315.0]  |  [Samurai HP:0.0/4905.0 ATK:368.0]     [Phoenix HP:3812.0/5175.0 ATK:209.0]  
+  [Phoenix HP:5175.0/5175.0 ATK:209.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:0.0/6240.0 ATK:315.0]        [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+@ Total HP of Team A = 35905.5. @ Total HP of Team B = 8987.0
+
+@ Round 35
+# A[Front][1] {Samurai} Double-Slashes B[Back][4] {Phoenix}
+# A[Front][2] {Tank} Attacks B[Back][4] {Phoenix}
+# A[Front][4] {Tank} Attacks B[Back][4] {Phoenix}
+# A[Back][1] {Healer} Attacks B[Back][4] {Phoenix}
+# A[Back][2] {Healer} Attacks B[Back][4] {Phoenix}
+# A[Back][3] {BlackMage} Attacks B[Back][4] {Phoenix}
+# A[Back][4] {BlackMage} Attacks B[Back][4] {Phoenix}
+# A[Back][5] {Phoenix} Attacks B[Back][4] {Phoenix}
+# B[Back][4] {Phoenix} Attacks A[Front][1] {Samurai}
+# B[Back][5] {Phoenix} Attacks A[Front][1] {Samurai}
+                                Team A                                      		                                 Team B                             
+                              BACK ROW                             FRONT ROW  |  FRONT ROW                             	BACK ROW                              
+   [Healer HP:4790.0/4790.0 ATK:238.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:0.0/6240.0 ATK:315.0]        [BlackMage HP:0.0/4175.0 ATK:339.0]   
+   [Healer HP:4790.0/4790.0 ATK:238.0]     [Tank HP:6240.0/6240.0 ATK:315.0]  |  [Samurai HP:0.0/4905.0 ATK:368.0]     [Healer HP:0.0/4790.0 ATK:238.0]      
+[BlackMage HP:4175.0/4175.0 ATK:339.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:0.0/6240.0 ATK:315.0]        [Phoenix HP:0.0/5175.0 ATK:209.0]     
+[BlackMage HP:4175.0/4175.0 ATK:339.0]     [Tank HP:6240.0/6240.0 ATK:315.0]  |  [Samurai HP:0.0/4905.0 ATK:368.0]     [Phoenix HP:1083.0/5175.0 ATK:209.0]  
+  [Phoenix HP:5175.0/5175.0 ATK:209.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:0.0/6240.0 ATK:315.0]        [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+@ Total HP of Team A = 35585.0. @ Total HP of Team B = 6258.0
+
+@ Round 36
+# A[Front][2] {Tank} is Taunting
+# A[Front][4] {Tank} is Taunting
+# A[Back][3] {BlackMage} Curses B[Back][4] {Phoenix}
+# A[Back][4] {BlackMage} Curses B[Back][4] {Phoenix}
+# A[Back][5] {Phoenix} Attacks B[Back][4] {Phoenix}
+# B[Back][4] {Phoenix} Attacks A[Front][2] {Tank}
+# B[Back][5] {Phoenix} Attacks A[Front][2] {Tank}
+                                Team A                                      		                                 Team B                             
+                              BACK ROW                             FRONT ROW  |  FRONT ROW                             	BACK ROW                              
+   [Healer HP:4790.0/4790.0 ATK:238.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:0.0/6240.0 ATK:315.0]        [BlackMage HP:0.0/4175.0 ATK:339.0]   
+   [Healer HP:4790.0/4790.0 ATK:238.0]     [Tank HP:5822.0/6240.0 ATK:315.0]  |  [Samurai HP:0.0/4905.0 ATK:368.0]     [Healer HP:0.0/4790.0 ATK:238.0]      
+[BlackMage HP:4175.0/4175.0 ATK:339.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:0.0/6240.0 ATK:315.0]        [Phoenix HP:0.0/5175.0 ATK:209.0]     
+[BlackMage HP:4175.0/4175.0 ATK:339.0]     [Tank HP:6240.0/6240.0 ATK:315.0]  |  [Samurai HP:0.0/4905.0 ATK:368.0]     [Phoenix HP:874.0/5175.0 ATK:209.0]   
+  [Phoenix HP:5175.0/5175.0 ATK:209.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:0.0/6240.0 ATK:315.0]        [Phoenix HP:5175.0/5175.0 ATK:209.0]  
+@ Total HP of Team A = 35167.0. @ Total HP of Team B = 6049.0
+
+@ Round 37
+# A[Front][2] {Tank} Attacks B[Back][4] {Phoenix}
+# A[Front][4] {Tank} Attacks B[Back][4] {Phoenix}
+# A[Back][1] {Healer} Attacks B[Back][4] {Phoenix}
+# A[Back][2] {Healer} Attacks B[Back][4] {Phoenix}
+# A[Back][3] {BlackMage} Attacks B[Back][5] {Phoenix}
+# A[Back][4] {BlackMage} Attacks B[Back][5] {Phoenix}
+# A[Back][5] {Phoenix} Attacks B[Back][5] {Phoenix}
+# B[Back][5] {Phoenix} Attacks A[Front][2] {Tank}
+                                Team A                                      		                                 Team B                             
+                              BACK ROW                             FRONT ROW  |  FRONT ROW                             	BACK ROW                              
+   [Healer HP:4790.0/4790.0 ATK:238.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:0.0/6240.0 ATK:315.0]        [BlackMage HP:0.0/4175.0 ATK:339.0]   
+   [Healer HP:4790.0/4790.0 ATK:238.0]     [Tank HP:5613.0/6240.0 ATK:315.0]  |  [Samurai HP:0.0/4905.0 ATK:368.0]     [Healer HP:0.0/4790.0 ATK:238.0]      
+[BlackMage HP:4175.0/4175.0 ATK:339.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:0.0/6240.0 ATK:315.0]        [Phoenix HP:0.0/5175.0 ATK:209.0]     
+[BlackMage HP:4175.0/4175.0 ATK:339.0]     [Tank HP:6240.0/6240.0 ATK:315.0]  |  [Samurai HP:0.0/4905.0 ATK:368.0]     [Phoenix HP:0.0/5175.0 ATK:209.0]     
+  [Phoenix HP:5175.0/5175.0 ATK:209.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:0.0/6240.0 ATK:315.0]        [Phoenix HP:4288.0/5175.0 ATK:209.0]  
+@ Total HP of Team A = 34958.0. @ Total HP of Team B = 4288.0
+
+@ Round 38
+# A[Front][2] {Tank} Attacks B[Back][5] {Phoenix}
+# A[Front][4] {Tank} Attacks B[Back][5] {Phoenix}
+# A[Back][1] {Healer} Attacks B[Back][5] {Phoenix}
+# A[Back][2] {Healer} Attacks B[Back][5] {Phoenix}
+# A[Back][3] {BlackMage} Attacks B[Back][5] {Phoenix}
+# A[Back][4] {BlackMage} Attacks B[Back][5] {Phoenix}
+# A[Back][5] {Phoenix} Attacks B[Back][5] {Phoenix}
+# B[Back][5] {Phoenix} Attacks A[Front][2] {Tank}
+                                Team A                                      		                                 Team B                             
+                              BACK ROW                             FRONT ROW  |  FRONT ROW                             	BACK ROW                              
+   [Healer HP:4790.0/4790.0 ATK:238.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:0.0/6240.0 ATK:315.0]        [BlackMage HP:0.0/4175.0 ATK:339.0]   
+   [Healer HP:4790.0/4790.0 ATK:238.0]     [Tank HP:5404.0/6240.0 ATK:315.0]  |  [Samurai HP:0.0/4905.0 ATK:368.0]     [Healer HP:0.0/4790.0 ATK:238.0]      
+[BlackMage HP:4175.0/4175.0 ATK:339.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:0.0/6240.0 ATK:315.0]        [Phoenix HP:0.0/5175.0 ATK:209.0]     
+[BlackMage HP:4175.0/4175.0 ATK:339.0]     [Tank HP:6240.0/6240.0 ATK:315.0]  |  [Samurai HP:0.0/4905.0 ATK:368.0]     [Phoenix HP:0.0/5175.0 ATK:209.0]     
+  [Phoenix HP:5175.0/5175.0 ATK:209.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:0.0/6240.0 ATK:315.0]        [Phoenix HP:2295.0/5175.0 ATK:209.0]  
+@ Total HP of Team A = 34749.0. @ Total HP of Team B = 2295.0
+
+@ Round 39
+# A[Front][2] {Tank} Attacks B[Back][5] {Phoenix}
+# A[Front][4] {Tank} Attacks B[Back][5] {Phoenix}
+# A[Back][1] {Healer} Attacks B[Back][5] {Phoenix}
+# A[Back][2] {Healer} Attacks B[Back][5] {Phoenix}
+# A[Back][3] {BlackMage} Attacks B[Back][5] {Phoenix}
+# A[Back][4] {BlackMage} Attacks B[Back][5] {Phoenix}
+# A[Back][5] {Phoenix} Attacks B[Back][5] {Phoenix}
+# B[Back][5] {Phoenix} Attacks A[Front][2] {Tank}
+                                Team A                                      		                                 Team B                             
+                              BACK ROW                             FRONT ROW  |  FRONT ROW                             	BACK ROW                              
+   [Healer HP:4790.0/4790.0 ATK:238.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:0.0/6240.0 ATK:315.0]        [BlackMage HP:0.0/4175.0 ATK:339.0]   
+   [Healer HP:4790.0/4790.0 ATK:238.0]     [Tank HP:5195.0/6240.0 ATK:315.0]  |  [Samurai HP:0.0/4905.0 ATK:368.0]     [Healer HP:0.0/4790.0 ATK:238.0]      
+[BlackMage HP:4175.0/4175.0 ATK:339.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:0.0/6240.0 ATK:315.0]        [Phoenix HP:0.0/5175.0 ATK:209.0]     
+[BlackMage HP:4175.0/4175.0 ATK:339.0]     [Tank HP:6240.0/6240.0 ATK:315.0]  |  [Samurai HP:0.0/4905.0 ATK:368.0]     [Phoenix HP:0.0/5175.0 ATK:209.0]     
+  [Phoenix HP:5175.0/5175.0 ATK:209.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:0.0/6240.0 ATK:315.0]        [Phoenix HP:302.0/5175.0 ATK:209.0]   
+@ Total HP of Team A = 34540.0. @ Total HP of Team B = 302.0
+
+@ Round 40
+# A[Front][2] {Tank} is Taunting
+# A[Front][4] {Tank} is Taunting
+# A[Back][1] {Healer} Heals A[Front][2] {Tank}
+# A[Back][3] {BlackMage} Curses B[Back][5] {Phoenix}
+# A[Back][4] {BlackMage} Curses B[Back][5] {Phoenix}
+# A[Back][5] {Phoenix} Revives A[Front][1] {Samurai}
+# B[Back][5] {Phoenix} Revives B[Front][1] {Tank}
+                                Team A                                      		                                 Team B                             
+                              BACK ROW                             FRONT ROW  |  FRONT ROW                             	BACK ROW                              
+   [Healer HP:4790.0/4790.0 ATK:238.0]  [Samurai HP:1471.5/4905.0 ATK:368.0]  |  [Tank HP:1872.0/6240.0 ATK:315.0]     [BlackMage HP:0.0/4175.0 ATK:339.0]   
+   [Healer HP:4790.0/4790.0 ATK:238.0]     [Tank HP:6240.0/6240.0 ATK:315.0]  |  [Samurai HP:0.0/4905.0 ATK:368.0]     [Healer HP:0.0/4790.0 ATK:238.0]      
+[BlackMage HP:4175.0/4175.0 ATK:339.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:0.0/6240.0 ATK:315.0]        [Phoenix HP:0.0/5175.0 ATK:209.0]     
+[BlackMage HP:4175.0/4175.0 ATK:339.0]     [Tank HP:6240.0/6240.0 ATK:315.0]  |  [Samurai HP:0.0/4905.0 ATK:368.0]     [Phoenix HP:0.0/5175.0 ATK:209.0]     
+  [Phoenix HP:5175.0/5175.0 ATK:209.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:0.0/6240.0 ATK:315.0]        [Phoenix HP:302.0/5175.0 ATK:209.0]   
+@ Total HP of Team A = 37056.5. @ Total HP of Team B = 2174.0
+
+@ Round 41
+# A[Front][1] {Samurai} Attacks B[Front][1] {Tank}
+# A[Front][2] {Tank} Attacks B[Front][1] {Tank}
+# A[Front][4] {Tank} Attacks B[Front][1] {Tank}
+# A[Back][1] {Healer} Attacks B[Front][1] {Tank}
+# A[Back][2] {Healer} Attacks B[Front][1] {Tank}
+# A[Back][3] {BlackMage} Attacks B[Front][1] {Tank}
+# A[Back][4] {BlackMage} Attacks B[Front][1] {Tank}
+# A[Back][5] {Phoenix} Attacks B[Back][5] {Phoenix}
+# B[Back][5] {Phoenix} Attacks A[Front][1] {Samurai}
+                                Team A                                      		                                 Team B                             
+                              BACK ROW                             FRONT ROW  |  FRONT ROW                             	BACK ROW                              
+   [Healer HP:4790.0/4790.0 ATK:238.0]  [Samurai HP:1262.5/4905.0 ATK:368.0]  |  [Tank HP:0.0/6240.0 ATK:315.0]        [BlackMage HP:0.0/4175.0 ATK:339.0]   
+   [Healer HP:4790.0/4790.0 ATK:238.0]     [Tank HP:6240.0/6240.0 ATK:315.0]  |  [Samurai HP:0.0/4905.0 ATK:368.0]     [Healer HP:0.0/4790.0 ATK:238.0]      
+[BlackMage HP:4175.0/4175.0 ATK:339.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:0.0/6240.0 ATK:315.0]        [Phoenix HP:0.0/5175.0 ATK:209.0]     
+[BlackMage HP:4175.0/4175.0 ATK:339.0]     [Tank HP:6240.0/6240.0 ATK:315.0]  |  [Samurai HP:0.0/4905.0 ATK:368.0]     [Phoenix HP:0.0/5175.0 ATK:209.0]     
+  [Phoenix HP:5175.0/5175.0 ATK:209.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:0.0/6240.0 ATK:315.0]        [Phoenix HP:93.0/5175.0 ATK:209.0]    
+@ Total HP of Team A = 36847.5. @ Total HP of Team B = 93.0
+
+@ Round 42
+# A[Front][1] {Samurai} Attacks B[Back][5] {Phoenix}
+                                Team A                                      		                                 Team B                             
+                              BACK ROW                             FRONT ROW  |  FRONT ROW                             	BACK ROW                              
+   [Healer HP:4790.0/4790.0 ATK:238.0]  [Samurai HP:1262.5/4905.0 ATK:368.0]  |  [Tank HP:0.0/6240.0 ATK:315.0]        [BlackMage HP:0.0/4175.0 ATK:339.0]   
+   [Healer HP:4790.0/4790.0 ATK:238.0]     [Tank HP:6240.0/6240.0 ATK:315.0]  |  [Samurai HP:0.0/4905.0 ATK:368.0]     [Healer HP:0.0/4790.0 ATK:238.0]      
+[BlackMage HP:4175.0/4175.0 ATK:339.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:0.0/6240.0 ATK:315.0]        [Phoenix HP:0.0/5175.0 ATK:209.0]     
+[BlackMage HP:4175.0/4175.0 ATK:339.0]     [Tank HP:6240.0/6240.0 ATK:315.0]  |  [Samurai HP:0.0/4905.0 ATK:368.0]     [Phoenix HP:0.0/5175.0 ATK:209.0]     
+  [Phoenix HP:5175.0/5175.0 ATK:209.0]     [Samurai HP:0.0/4905.0 ATK:368.0]  |  [Tank HP:0.0/6240.0 ATK:315.0]        [Phoenix HP:0.0/5175.0 ATK:209.0]     
+@ Total HP of Team A = 36847.5. @ Total HP of Team B = 0.0
+
+@@@ Team A won.
